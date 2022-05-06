@@ -1,6 +1,6 @@
 provider "aws" {
     region = "us-east-1"
-    profile = "arniaws"
+    profile = "default"
 }
 resource "aws_s3_bucket" "example" {
   bucket = "my-tf-example-bucket-arni"
